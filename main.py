@@ -24,3 +24,7 @@ def main():
             print(roll_dice(int(user_input)))
         except ValueError:
             print('(Please enter a valid number!!)')
+
+
+if __name__ == '__main__':
+    main()
