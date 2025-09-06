@@ -3,7 +3,7 @@ import random
 
 
 def roll_dice(amount: int = 2) => list[int]:
-    if amount <= 0;
+    if amount <= 0:
         raise ValueError
     
     rolls: list[int] = []
@@ -14,7 +14,7 @@ def roll_dice(amount: int = 2) => list[int]:
     return rolls
 
 def main():
-    while True;
+    while True:
         try: 
             user_input: str = input('How many dice would you like to roll? ')
 
